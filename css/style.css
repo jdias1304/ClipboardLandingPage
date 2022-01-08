@@ -1,0 +1,567 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bai Jamjuree';
+}
+
+html{
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+}
+
+.logo-header {
+  height: 100px;
+  width: 100px;
+  margin: 6rem 0rem 3rem 0rem;
+}
+
+.logo-header img {
+  width: 100%;
+}
+
+header h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+header p {
+  padding: 0rem .2rem;
+  font-size: .85rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: rgb(159, 171, 178);
+  line-height: 1.5;
+}
+
+.download {
+  padding: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.btn-ios {
+  background-color: rgb(38, 186, 164);
+  padding: 0.7rem;
+  border-radius: 50px;
+  border: none;
+  border-bottom: 3px solid rgb(12, 128, 110);
+  text-align: center;
+  color: white;
+  margin-bottom: .8rem;
+  width: 303px;
+  font-size: 1.1rem;
+}
+
+.btn-mac {
+  background-color: rgb(97, 115, 255);
+  padding: 0.7rem;
+  border-radius: 50px;
+  border: none;
+  border-bottom: 3px solid rgb(74, 94, 250);
+  text-align: center;
+  color: white;
+  margin-bottom: 10rem;
+  width: 303px;
+  font-size: 1.1rem;
+}
+
+.snippets {
+  padding: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.snippet-img img {
+  width: 100%;
+}
+
+.snippet-img {
+  margin-bottom: 2rem;
+}
+
+.snippets h2{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.snippets p {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-bottom: 3rem;
+  padding: 0rem .2rem;
+  color: rgb(159, 171, 178);
+  line-height: 1.5;
+}
+
+.snippets h3 {
+  text-align: center;
+}
+
+.clipboard-anywhere {
+  padding: 0rem 2rem;
+  margin-top: 10rem;
+}
+
+.clipboard-anywhere h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.clipboard-anywhere p {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 0.85rem;
+  padding: 0rem .2rem;
+  color: rgb(159, 171, 178);
+  line-height: 1.5;
+}
+
+.clipboard-img img {
+  width: 100%;
+}
+
+.clipboard-img {
+  margin-bottom: 5rem;
+}
+
+.workflow {
+  padding: 0rem 2rem;
+}
+
+.workflow h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.workflow p {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 0.85rem;
+  padding: 0rem .2rem;
+  color: rgb(159, 171, 178);
+  line-height: 1.5;
+}
+
+.card1, .card2, .card3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card1 img, .card2 img, .card3 img {
+  margin-bottom: 2rem;
+}
+
+.card1 h3, .card2 h3, .card3 h3 {
+  margin-bottom: 1rem;
+}
+
+.card1 p, .card2 p, .card3 p {
+  color: rgb(159, 171, 178);
+  margin-bottom: 3rem;
+  padding: 0rem .2rem;
+  line-height: 1.5;
+}
+
+.companies-logo {
+  padding: 0rem 2rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.google, .ibm, .microsoft, .hewlett {
+  margin-bottom: 3rem;
+}
+
+.clipboard-ios-mac {
+  padding: 0rem 2rem;
+  margin-top: 10rem; 
+}
+
+.clipboard-ios-mac h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.clipboard-ios-mac p {
+  color: rgb(159, 171, 178);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 0.85rem;
+  padding: 0rem .3rem;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: rgba(214, 214, 214, 0.9);
+
+}
+
+.footer-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-footer {
+  margin: 2.5rem 0rem 1.5rem 0rem;
+}
+
+.logo-footer img {
+  width: 50px;
+  height: 50px;
+}
+
+.links ul {
+  list-style-type: none;
+}
+
+.links ul li {
+  font-size: .9rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: rgb(79, 86, 90);
+  font-weight: 400;
+}
+
+.social-medias {
+  display: flex;
+  margin: 1.5rem 0rem;
+}
+
+.social-medias a {
+  padding: 0rem 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  header p {
+    padding: 0rem .5rem;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    width: 50%;
+    color: rgb(159, 171, 178);
+    line-height: 1.5;
+  }
+
+  .download {
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 1500px;
+  }
+
+  .btn-ios {
+    background-color: rgb(38, 186, 164);
+    padding: 0.7rem;
+    border-radius: 50px;
+    border: none;
+    border-bottom: 3px solid rgb(12, 128, 110);
+    text-align: center;
+    color: white;
+    margin-bottom: 10rem;
+    width: 250px;
+    font-size: 1rem;
+  }
+  
+  .btn-mac {
+    background-color: rgb(97, 115, 255);
+    padding: 0.7rem;
+    border-radius: 50px;
+    border: none;
+    border-bottom: 3px solid rgb(74, 94, 250);
+    text-align: center;
+    color: white;
+    margin-bottom: 10rem;
+    width: 250px;
+    font-size: 1rem;
+  }
+
+  .snippets {
+    padding: 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1800px;
+  }
+
+  .snippets h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .snippets p {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    padding: 0rem 0rem;
+    width: 50%;
+    color: rgb(159, 171, 178);
+    line-height: 1.5;
+  }
+
+  .img-info-box {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem
+  }
+
+  .snippet-info {
+    margin-top: 3rem;
+  }
+
+  .snippet-info h3 {
+    margin-bottom: .5rem;
+    text-align: left;
+  }
+
+  .snippet-info p {
+    text-align: left;
+    width: 60%;
+    line-height: 1.5;
+  }
+
+  .clipboard-anywhere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 2rem;
+    margin-top: 10rem;
+    max-width: 1800px;
+  }
+  
+  .clipboard-anywhere h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .clipboard-anywhere p {
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 1rem;
+    padding: 0rem 0rem;
+    width: 50%;
+    color: rgb(159, 171, 178);
+    line-height: 1.5;
+  }
+
+  .workflow {
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1800px;
+  }
+  
+  .workflow h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .workflow p {
+    color: rgb(159, 171, 178);
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    padding: 0rem 0rem;
+    width: 50%;
+    line-height: 1.5;
+  }
+
+  .cards {
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.2rem
+  }
+
+  .card1, .card2, .card3 {
+    width: 29%;
+  }
+  
+  .card1 img {
+    margin-bottom: 1.5rem;
+  }
+
+  .card2 img, .card3 img {
+    margin-bottom: 2rem;
+  }
+  
+  .card1 h3, .card2 h3, .card3 h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .card1 p, .card2 p, .card3 p {
+    margin-bottom: 3rem;
+    width: 100%;
+    padding: 0rem 0rem;
+    color: rgb(159, 171, 178);
+    line-height: 1.5;
+  }
+
+  .companies-logo {
+    padding: 0rem 2rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1800px;
+  }
+
+  .google, .ibm, .microsoft, .hewlett, .vector {
+    margin-bottom: 3rem;
+  }
+
+  .clipboard-ios-mac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 2rem;
+    margin-top: 5rem; 
+    max-width: 1800px;
+  }
+  
+  .clipboard-ios-mac h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .clipboard-ios-mac p {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    padding: 0rem 0rem;
+    color: rgb(159, 171, 178);
+    line-height: 1.5;
+  }
+
+  footer {
+    background-color: rgba(214, 214, 214, 0.9);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1800px;
+  }
+  
+  .logo-footer {
+    margin: 2rem 0rem 1.5rem 0rem;
+  }
+  
+  .logo-footer img {
+    width: 50px;
+    height: 50px;
+  }
+
+  
+  .links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  
+  .links ul li {
+    margin-left: 2rem;
+    font-size: .9rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .links ul li a {
+    text-decoration: none;
+    color: rgb(79, 86, 90);
+    font-weight: 400;
+  }
+  
+  .social-medias {
+    display: flex;
+    margin: 1.5rem 0rem;
+  }
+  
+  .social-medias a {
+    padding: 0rem 1rem;
+  }
+
+}
+
+
+
+
+
+
