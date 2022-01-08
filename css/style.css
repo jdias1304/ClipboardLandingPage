@@ -67,6 +67,7 @@ header p {
   margin-bottom: .8rem;
   width: 303px;
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .btn-mac {
@@ -80,6 +81,7 @@ header p {
   margin-bottom: 10rem;
   width: 303px;
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .snippets {
@@ -248,14 +250,21 @@ footer {
   font-weight: 400;
 }
 
+.links ul li a:hover {
+  color:rgb(38, 186, 164);
+}
+
 .social-medias {
   display: flex;
+  align-items: center;
   margin: 1.5rem 0rem;
 }
 
 .social-medias a {
+  position: relative;
   padding: 0rem 1rem;
 }
+
 
 @media screen and (min-width: 768px) {
   header {
@@ -509,6 +518,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .footer-infos {
@@ -516,7 +526,9 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    max-width: 1800px;
+    width: 100%;
+    max-width: 1700px;
+  
   }
   
   .logo-footer {
@@ -533,6 +545,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     list-style-type: none;
   }
   
@@ -540,17 +553,19 @@ footer {
     margin-left: 2rem;
     font-size: .9rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
   }
   
   .links ul li a {
     text-decoration: none;
     color: rgb(79, 86, 90);
     font-weight: 400;
+
   }
   
   .social-medias {
     display: flex;
+    align-items: center;
     margin: 1.5rem 0rem;
   }
   
